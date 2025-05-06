@@ -6,15 +6,10 @@
 #include <iostream>
 
 TEST(init_tape, tape) {
-    // std::ifstream ifs("tape.toml");
-    // if (!ifs.is_open()) {
-    //     throw std::runtime_error("Unble to open tape.toml");
-    // }
-    // auto config = toml::parse(ifs);
     unsigned long long N = 50;
     unsigned long long buffer_size = 10;
 
-    std::string input_filename = "numbers-large.txt";
+    std::string input_filename = "input.txt";
     std::string output_filename = "cpp-sorted.txt";
 
 
