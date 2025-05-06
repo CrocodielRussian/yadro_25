@@ -1,0 +1,5 @@
+[physical_setting]
+delay_write = 100
+delay_read = 100
+delay_move_tape = 100
+delay_fast_forward_tape = 50
